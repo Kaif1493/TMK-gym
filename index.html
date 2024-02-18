@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="/css/queries.css">
+    <link rel="shortcut icon" href="/img/icons8-dumbell-64.png" type="image/x-icon">
+    <title>TMK Gym</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="brand">
+          <h1>TMK Gym</h1>
+        </div>
+        <div class="navlists">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#plans">Plans</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="toggler">
+          <div class="lines"></div>
+          <div class="lines"></div>
+          <div class="lines"></div>
+        </div>
+    
+      </nav>
+      <main>
+        <section id="home">
+          <div class="hero">
+            <div class="hero-con">
+              <h1><span>TMK</span> Fitness Studio</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                tenetur laboriosam error rem dolore quaerat delectus ullam, modi
+                molestiae porro dolor ipsam reiciendis perferendis velit iusto
+                et
+              </p>
+             <div class="hero-button">
+               <button>Get a membership</button>
+              <a href="#about"><button>Get To Know About Us</button></a>
+             </div>
+            </div>
+          </div>
+        </section>
+        <section id="about">
+          <div class="about">
+            <div class="ab-para">
+            <h1>About <span> TMK</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero neque placeat modi earum sequi, commodi autem vel dolor corporis porro iste quasi magni delectus nisi! Obcaecati sit in architecto neque magni pariatur repudiandae quo, quaerat odio, beatae voluptatum corrupti perferendis, id aliquid dicta. Corrupti cumque sunt asperiores inventore, soluta accusamus!</p>
+            <button>Get A Membership</button>
+</div>
+           
+            <div class="programs">
+              
+              <div>
+                <img src="./img/icons8-weight-loss-64.png" alt="Weight loss">
+              <h2>Weight loss</h2>
+             
+              
+              </div>
+               <div>
+                <img src="./img/icons8-bodybuilding-50.png" alt="">
+                <h2>Body Bulding</h2>
+              
+               </div>
+            
+               <div>
+                <img src="./img/icons8-bodybuilding-80.png" alt="">
+                <h2>Weight Gain</h2>
+             
+              
+            </div>
+              <div>
+                  <img src="./img/icons8-nutrition-50.png" alt="" width="70px">
+               <h2>Health Nutrition</h2>
+              
+              
+            </div>
+            </div>
+          </div>
+        </section>
+<section id="plans">
+<div class="plans">
+  <h1 class="plan-head"><span>TMK's</span> Membership Plans</h1>
+  <div class="cards">
+    <div class="card-1">
+      <h1>12 months Plan</h1>
+     <ul>
+      <li>upto <span>365</span> days</li>
+      <li>training with mentor</li>
+      <li>rupees <span>7500</span> only</li>
+     </ul>
+     <button>Book now</button>
+    </div>
+    <div class="card-2">
+       <h1>6 Months Plan</h1>
+       <ul>
+      <li>upto <span>365</span> days</li>
+      <li>training with mentor</li>
+      <li>rupees <span>5000</span> only</li>
+     </ul>
+       <button>Book now</button>
+    </div>
+    <div class="card-3">
+       <h1>3 Months Plan</h1>
+       <ul>
+      <li>upto <span>365</span> days</li>
+      <li>training with mentor</li>
+      <li>rupees <span>7500</span> only</li>
+     </ul>
+       <button>Book now</button>
+    </div>
+    <div class="card-4">
+       <h1>1 Month Plan</h1>
+       <ul>
+      <li>upto <span>365</span> days</li>
+      <li>training with mentor</li>
+      <li>rupees <span>7500</span> only</li>
+     </ul>
+       <button>Book now</button>
+    </div>
+  </div>
+</div>
+</section>
+<section id="contact">
+  <div class="contact">
+     <div class="con-head">
+  <h1 contact>contact <span>TMK</span></h1>
+  </div>
+   <div>
+     <label>Name</label>
+    <input type="text">
+   </div>
+  <div>  <label >Email</label>
+    <input type="email">
+  </div>
+<div>
+ <label for="">Mobile No</label>
+ <input type="text">
+</div>
+   <div>
+    <button>Submit</button>
+</div>
+  </div>
+</section>
+<footer>Copyright &copy; 2023</footer>
+  </body>
+  <script>
+    const menu = document.querySelector(".toggler");
+const menulist = document.querySelector("nav ul");
+menu.addEventListener("click", () => {
+  menulist.classList.toggle("showmenu");
+});
+
+  </script>
+</html>
